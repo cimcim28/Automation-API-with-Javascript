@@ -1,0 +1,31 @@
+{
+	"name": "automation-api-with-javascript",
+	"version": "1.0.0",
+	"description": "mocha chai petstore example",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha",
+		"welcome": "mocha test/api/welcomeTest.js",
+		"test get": "mocha test/api/getExample.js",
+		"test post": "mocha test/api/postExample.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cimcim28/Automation-API-with-Javascript.git"
+	},
+	"author": "Prisma",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/cimcim28/Automation-API-with-Javascript/issues"
+	},
+	"homepage": "https://github.com/cimcim28/Automation-API-with-Javascript#readme",
+	"dependencies": {
+		"chai": "^4.3.7",
+		"mocha": "^10.2.0",
+		"mochawesome": "^7.1.3",
+		"supertest": "^6.3.3"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.20.7"
+	}
+}
